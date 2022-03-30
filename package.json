@@ -1,0 +1,21 @@
+{
+  "name": "hapi-promster-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Asserts",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@hapi/hapi": "^20.2.1",
+    "@promster/hapi": "^8.0.5",
+    "@promster/server": "^7.0.7",
+    "filepaths": "^0.3.0",
+    "hapi-boom-decorators": "^4.1.2",
+    "prom-client": "^14.0.1"
+  }
+}
