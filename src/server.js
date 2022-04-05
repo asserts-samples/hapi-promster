@@ -4,7 +4,7 @@
 const Hapi = require('@hapi/hapi');
 const filepaths = require('filepaths');
 const hapiBoomDecorators = require('hapi-boom-decorators');
-const { createPlugin, signalIsUp } = require('@promster/hapi');
+const { createPlugin } = require('@promster/hapi');
 
 const config = require('../config');
 
@@ -20,7 +20,6 @@ async function createServer() {
   try {
     await server.start();
     console.log(`Server running at: ${server.info.uri}`);
-    signalIsUp();
   } catch (err) {
     console.log(JSON.stringify(err));
   }
