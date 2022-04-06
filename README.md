@@ -46,3 +46,4 @@ module.exports = {
   },
 };
 ```
+4. Check /metrics endpoint to get metrics
