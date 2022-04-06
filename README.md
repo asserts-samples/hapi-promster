@@ -6,12 +6,16 @@
 - A Prometheus exporter for Hapi, express and Marble.js servers to automatically measure request timings
 
 ## Start example app
+1. Install dependencies
 ```
 npm install
 ```
+2. Run hapi server
 ```
 npm start
 ```
+3. Check /metrics endpoint to get metrics: GET http://localhost:3030/metrics
+
 ## Adding Promster to Hapi project
 
 1. Install dependencies:
