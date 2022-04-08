@@ -14,7 +14,7 @@ npm install
 ```
 npm start
 ```
-3. Check /metrics endpoint to get metrics: GET http://localhost:3030/metrics
+3. Fire up the endpoint GET http://localhost:3030/ first and then check GET http://localhost:3030/metrics
 
 ## Adding Promster to Hapi project
 
